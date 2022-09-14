@@ -6,6 +6,7 @@
    <elementGuidId>bf95ec44-8f74-4b67-854c-83a7e77af5f2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -20,7 +21,9 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>87a25015-8406-4ba8-9577-93f62dc454fb</webElementGuid>
    </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>${GlobalVariable.baseUrl}/api/users/json</restUrl>
@@ -28,7 +31,10 @@
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>18</defaultValue>
       <description></description>
@@ -37,21 +43,21 @@
       <name>age</name>
    </variables>
    <variables>
-      <defaultValue>'MALE'</defaultValue>
+      <defaultValue>'FEMALE'</defaultValue>
       <description></description>
       <id>7c77cd5e-e69d-4bf6-bf4c-242ca104081c</id>
       <masked>false</masked>
       <name>gender</name>
    </variables>
    <variables>
-      <defaultValue>'mimi'</defaultValue>
+      <defaultValue>'monkey'</defaultValue>
       <description></description>
       <id>30565e15-eece-49b1-8159-ac9a99a956aa</id>
       <masked>false</masked>
       <name>username</name>
    </variables>
    <variables>
-      <defaultValue>'123456789'</defaultValue>
+      <defaultValue>'iykyk'</defaultValue>
       <description></description>
       <id>303e8db4-748d-4300-878d-05ef1956d9b6</id>
       <masked>false</masked>
